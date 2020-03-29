@@ -1,0 +1,22 @@
+{
+    "name": "zying/yii2-summernote",
+    "description": "summernote editor",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","summernote","editor"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "zying",
+            "email": "my527596@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/summernote": "^0.8.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "zying\\summernote\\": "src"
+        }
+    }
+}
